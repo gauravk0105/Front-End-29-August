@@ -1,0 +1,800 @@
+/* start image banner */
+.box {
+  position: relative;  
+}
+
+#set-img {
+    height: 300px
+}
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  top: 121px;
+  left: 105px;
+  height: 101px;
+  opacity: 1;
+  /* background-color: black; */
+  color: white;
+}
+
+#text-1{
+    text-align: left;
+font: normal normal bold 34px/45px Segoe UI;;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+ #text-2 {
+    text-align: left;
+    width: 469px;
+height: 47px;
+font: normal normal normal 16px/22px Segoe UI;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+ }
+
+@media screen and (max-width: 992px) {
+
+    #set-img {
+        height: 250px;
+    }
+    .text-block {
+  position: absolute;
+  top: 108px;
+  left: 62px;
+  /* background-color: black; */
+  color: white;
+  height: 79px;
+opacity: 1;
+} #text-1{
+    text-align: left;
+font: normal normal bold 26px/35px Segoe UI;;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+ #text-2 {
+    text-align: left;
+font: normal normal normal 14px/18px Segoe UI;
+width: 403px;
+height: 38px;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+ }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+
+    #set-img {
+        height: 200px;
+    }
+    .text-block {
+  position: absolute;
+  top: 84px;
+  left: 30px;
+  /* background-color: black; */
+  color: white;
+  height: 75px;
+opacity: 1
+ }
+#text-1{
+    text-align: left;
+font: normal normal bold 20px/26px Segoe UI;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+ #text-2 {
+    text-align: left;
+    width: 241px;
+height: 46px;
+font: normal normal normal 12px/15px Segoe UI;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+ }
+}
+/* end image banner */
+
+   #text-title {
+    top: 398px;
+    left: 614px;
+    width: 100%;
+    height: 37px;
+    text-align: center;
+    font: normal normal bold 28px/37px Segoe UI;
+    letter-spacing: 0px;
+    color: #191818;
+    opacity: 1;
+  }
+
+  
+  #text-content {
+    top: 448px;
+    left: 248px;
+    width: 100%;
+    height: 62px;
+    text-align: center;
+    font: normal normal normal 16px/20px Segoe UI;
+    letter-spacing: 0px;
+    color: #474747;
+    opacity: 1;
+  } 
+
+ #id {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 20px #0000001A;
+  opacity: 1;
+ }
+
+
+ /* css for footer banner */
+#foot-1 {
+  text-align: left;
+  margin-top:85px; 
+  font: normal normal bold 25px/45px Segoe UI;
+  letter-spacing: 0px;
+  color: #191818; 
+  opacity: 1;
+}
+
+ #foot-2{
+  margin-top: 7px;
+  text-align: left;
+  font: normal normal normal 10px/11px/22px Segoe UI;
+  letter-spacing: 0px;
+  color: #474747;
+  opacity: 1
+ }
+
+ #foot-3 {
+  margin-bottom: 60px;
+  text-align: left;
+  font: normal normal normal 16px/18px Segoe UI;
+  letter-spacing: 0px;
+  margin-top: 21px;
+  color: #0077CE;
+  opacity: 1;
+
+ }
+
+ @media screen and (max-width: 600px) {
+  #foot-1 {
+    text-align: left;
+    
+    text-align: left;
+font: normal normal bold 16px/20px Segoe UI;
+letter-spacing: 0px;
+color: #191818;
+opacity: 1;
+  }
+  
+   #foot-2{
+    
+    text-align: left;
+    font: normal normal normal 8px/10px Segoe UI;
+    letter-spacing: 0px;
+    color: #474747;
+    opacity: 1;
+   }
+  
+   #foot-3 {
+    text-align: left;
+    font: normal normal normal 7px Segoe UI;
+    letter-spacing: 0px;
+    color: #0077CE;
+    opacity: 1;
+  
+   }
+ }
+  
+
+
+ /* Footer */
+ #footer {
+  position: relative;
+  height: 60px;
+  background: #242424 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#left{
+  position: absolute;
+  top: 23px;
+  left: 59px;
+  display: inline-block;
+  height: 16px;
+  text-align: left;
+  font: normal normal 600 12px/16px Segoe UI;
+  letter-spacing: 0px;
+  color: #EEF0F6;
+  opacity: 1;
+}
+
+#right {
+  position: absolute;
+  top: 23px;
+  left: 1214px;
+  display: inline-block;
+  height: 16px;
+  text-align: right;
+  font: normal normal 600 12px/16px Segoe UI;
+  letter-spacing: 0px;
+  color: #EEF0F6;
+  opacity: 1;
+}
+
+@media screen and (max-width: 992px) {
+  #left{
+  position: absolute;
+  top: 23px;
+  left: 24px;
+  display: inline-block;
+  height: 15px;
+  text-align: left;
+  font: normal normal 600 11px/15px Segoe UI;
+  letter-spacing: 0px;
+  color: #EEF0F6;
+  opacity: 1;
+}
+
+#right {
+  position: absolute;
+  top: 23px;
+  left: 591px;
+  display: inline-block;
+  height: 15px;
+  text-align: right;
+  font: normal normal 600 11px/15px Segoe UI;
+  letter-spacing: 0px;
+  color: #EEF0F6;
+  opacity: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #left{
+  position: absolute;
+  top: 23px;
+  left: 15px;
+  display: inline-block;
+  height: 11px;
+  text-align: left;
+  font: normal normal 600 8px/11px Segoe UI;
+  letter-spacing: 0px;
+  color: #EEF0F6;
+  opacity: 1;
+}
+
+#right {
+  position: absolute;
+  top: 23px;
+  /* left: 233px; */
+  display: inline-block;
+  left: 233px;
+  width: 111px;
+  height: 11px;
+  text-align: right;
+  font: normal normal 600 8px/11px Segoe UI;
+  letter-spacing: 0px;
+  color: #EEF0F6;
+  opacity: 1;
+  }
+}
+
+/* Footer */
+
+
+/* bottom */
+#box-1 {
+  position: relative;
+}
+#main-box {
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  height: 293px;
+  opacity: 1;
+}
+#title {
+  position: absolute;
+  top: 85px;
+  left: 60px;
+  width: 625px;
+  height: 53px;
+  text-align: left;
+  font: normal normal bold 40px/45px Segoe UI;
+  letter-spacing: 0px;
+  color: #191818;
+  opacity: 1;
+}
+#content {
+  position: absolute;
+  top: 145px;
+  left: 60px;
+  width: 566px;
+  height: 21px;
+  text-align: left;
+  font: normal normal normal 16px/22px Segoe UI;
+  letter-spacing: 0px;
+  color: #474747;
+  opacity: 1;
+}
+#link {
+  position: absolute;
+  top: 188px;
+  left: 60px;
+  width: 136px;
+  text-align: left;
+  font: normal normal normal 16px/18px Segoe UI;
+  letter-spacing: 0px;
+  color: #0077CE;
+  opacity: 1;
+  height: 21px;
+  opacity: 1;    
+}
+#image {
+  top: 0px;
+  position: absolute;
+  left: 818px;
+  /* width: 622px; */
+  height: 293px;
+}
+@media screen and (max-width: 992px) {
+  #main-box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 163px;
+  opacity: 1;
+  }
+  #title {
+      left: 24px;
+      top: 60px;
+      position: absolute;
+      width: 375px;
+      height: 32px;
+      text-align: left;
+      font: normal normal bold 24px/24px Segoe UI;
+      letter-spacing: 0px;
+      color: #191818;
+      opacity: 1;
+  }
+  #content {
+      position: absolute;
+      top: 100px;
+      left: 24px;
+      width: 319px;
+      height: 12px;
+      text-align: left;
+      font: normal normal normal 9px/11px Segoe UI;
+      letter-spacing: 0px;
+      color: #474747;
+      opacity: 1;
+  }
+  #link {
+      position: absolute;
+      top: 125px;
+      left: 24px;
+      width: 75px;
+      height: 12px;
+      opacity: 1;
+      text-align: left;
+      font: normal normal normal 9px/9px Segoe UI;
+      letter-spacing: 0px;
+      color: #0077CE;
+      opacity: 1;
+  }
+  #image {
+      position: absolute;
+      left: 423px;
+      width: 345px;
+      height: 163px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #main-box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 135px;
+  opacity: 1;    
+  }
+  #title {
+      top: 15px;
+      position: absolute;
+      left: 16px;
+      width: 141px;
+      height: 42px;
+      text-align: left;
+      font: normal normal bold 16px/20px Segoe UI;
+      letter-spacing: 0px;
+      color: #191818;
+      opacity: 1;
+  }
+  #content {
+      top: 65px;
+      position: absolute;
+      left: 16px;
+      width: 149px;
+      height: 23px;
+      text-align: left;
+      font: normal normal normal 8px/10px Segoe UI;
+      letter-spacing: 0px;
+      color: #474747;
+      opacity: 1;
+  }
+  #link {
+      position: absolute;
+      top: 90px;
+      left: 16px;
+      width: 75px;
+      height: 12px;
+      opacity: 1;
+  }
+  #image {
+      left: 180px;
+      width: 180px;
+      height: 135px;
+      position: absolute;
+  }
+}
+/* end bottom */
+
+
+/* Footer */
+#putText {
+  height: auto;
+  text-align: left;
+  font: normal normal 600 11px/15px Segoe UI;
+  letter-spacing: 0px;
+  color: #EEF0F6;
+  opacity: 1; float: left;
+}
+
+#putDate {
+  height: auto;
+  text-align: right;
+  font: normal normal 600 11px/15px Segoe UI;
+  letter-spacing: 0px;
+  color: #EEF0F6;
+  opacity: 1; float: right;
+}
+
+@media screen and (max-width: 1050px) {
+  #putText {
+    height: auto;
+    text-align: left;
+    font: normal normal 600 11px/15px Segoe UI;
+    letter-spacing: 0px;
+    color: #EEF0F6;
+    opacity: 1; float: left;
+  }
+  
+  #putDate {
+    height: auto;
+    text-align: right;
+    font: normal normal 600 11px/15px Segoe UI;;
+    letter-spacing: 0px;
+    color: #EEF0F6;
+    opacity: 1; float: right;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #putText {
+    height: auto;
+    text-align: left;
+    font: normal normal 600 8px/11px Segoe UI;
+    letter-spacing: 0px;
+    color: #EEF0F6;
+    opacity: 1; float: left;
+  }
+  
+  #putDate {
+    height: auto;
+    text-align: right;
+    font: normal normal 600 8px/11px Segoe UI;
+    letter-spacing: 0px;
+    color: #EEF0F6;
+    opacity: 1; float: right;
+  }
+
+}
+/* Footer end */
+#card-banner {
+  height: 280px;
+}
+
+#blue-content {
+  text-align: center; margin-top: 7px;
+                    font: normal normal normal 16px/22px Segoe UI;
+                    letter-spacing: 0px;
+                    
+                    color: #FFFFFF;
+                    opacity: 1;
+}
+
+#blue-text {
+  margin-top: 61px; text-align: center;
+                    
+  font: normal normal bold 40px/45px Segoe UI;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#but {
+  margin-top: 29px; margin-bottom: 61px;
+}
+
+#but-content {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+                        border-radius: 6px;
+                        width: 140px;
+                        height: 48px;
+                        opacity: 1;
+}
+
+#span-but {
+  text-align: center;
+                        font: normal normal normal 18px/45px Segoe UI;
+                        letter-spacing: 0px;
+                        color: #000000;
+                        opacity: 1;
+                        
+}
+
+/*  */
+@media screen and (max-width: 992px) {
+  #card-banner {
+    height: 200px;
+  }
+  #but {
+    margin-top:20px; margin-bottom: 55px;
+  }
+  #blue-text {
+    margin-top: 30px;
+    text-align: center;
+font: normal normal bold 24px/24px Segoe UI;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+  }
+  
+  #blue-content {
+    margin-top: 20px; text-align: center;
+    font: normal normal normal 9px/11px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+
+  #but-content {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 3px;
+opacity: 1;
+  }
+  #span-but {
+    
+    width: 42px;
+    height: 12px;
+    text-align: center;
+    font: normal normal normal 9px/23px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #card-banner {
+    height: 150px;
+  }
+  #but {
+    margin-top: 10px; margin-bottom: 30px;
+  }
+  #blue-content {
+    text-align: center; margin-top: 7px;
+    font: normal normal normal 8px/9px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  
+  #blue-text {
+    margin-top: 5px; text-align: center;
+font: normal normal bold 16px/24px Segoe UI;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+  }
+
+  #but-content {
+    width: 70px;
+height: 30px;
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 2px;
+opacity: 1;
+  }
+  #span-but {
+    width: 38px;
+height: 11px;
+text-align: center;
+font: normal normal normal 8px/23px Segoe UI;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+  }
+
+}
+
+
+
+
+/* card banner */
+#card-body {
+  height: 293px;
+}
+#card-text {
+  text-align: left;
+  margin-top:85px;
+  font: normal normal bold 40px/45px Segoe UI;
+  letter-spacing: 0px;
+  color: #191818;
+  opacity: 1;
+  margin-left: 60px;
+}
+
+#card-content {
+  margin-left: 60px;
+  margin-top:7px;
+  text-align: left;
+  font: normal normal normal 16px/22px Segoe UI;
+  letter-spacing: 0px;
+  color: #474747;
+  opacity: 1;
+}
+
+#card-link {
+  margin-left: 60px;
+  margin-top:28px;
+  width: 136px;
+  height: 21px;
+  opacity: 1;
+  text-align: left;
+font: normal normal normal 16px/18px Segoe UI;
+letter-spacing: 0px;
+color: #0077CE;
+opacity: 1;
+}
+
+#card-img {
+  opacity: 1;
+  width: 100%;
+  height: 293px;
+}
+
+@media screen and (max-width: 992px) {
+  #card-body {
+    height: 163px;
+  }
+  #card-text {
+    margin-top: 37px;
+    text-align: left;
+    font: normal normal bold 24px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #191818;
+    opacity: 1;
+    margin-left: 24px;
+  }
+  
+  #card-content {
+    margin-left: 24px;
+    margin-top:7px;
+    text-align: left;
+font: normal normal normal 9px/11px Segoe UI;
+letter-spacing: 0px;
+color: #474747;
+opacity: 1;
+  }
+  
+  #card-link {
+    margin-left: 24px;
+    margin-top:10px;
+    width: 90px;
+    height: 21px;
+text-align: left;
+font: normal normal normal 9px/9px Segoe UI;
+letter-spacing: 0px;
+color: #0077CE;
+opacity: 1;
+  }
+  
+  #card-img {
+    opacity: 1;
+    width: 100%;
+    height: 163px;
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+  #card-body {
+    height: 135px;
+  }
+  #card-text {
+    margin-top: 10px;
+    text-align: left;
+font: normal normal bold 16px/20px Segoe UI;
+letter-spacing: 0px;
+color: #191818;
+opacity: 1;
+    margin-left: 16px;
+  }
+  
+  #card-content {
+    margin-left: 16px;
+    margin-top:3px;
+    text-align: left;
+    font: normal normal normal 8px/10px Segoe UI;
+    letter-spacing: 0px;
+    color: #474747;
+    opacity: 1;
+  }
+  
+  #card-link {
+    margin-left: 16px;
+    margin-top:5px;
+    width: 90px;
+    height: 21px;
+    opacity: 1;
+text-align: left;
+font: normal normal normal 9px/9px Segoe UI;
+letter-spacing: 0px;
+color: #0077CE;
+opacity: 1;
+  }
+  
+  #card-img {
+    opacity: 1;
+    width: 100%;
+    height: 135px;
+  }
+
+}
+
+/*  */
+#logo {
+  display:none;
+}
+
+#tt:focus {
+    outline: none;  
+}
+
+@media screen and (max-width: 992px) {
+/*  */
+  #logo {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /*  */
+    #logo {
+      display: inline;
+    }
+  }

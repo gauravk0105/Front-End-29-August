@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="myStyles.css">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <title>Front-End</title>
+
+    </head>
+    <body onload="getCurrentDate();" style="width: 100%;">
+          
+        <!-- header  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <button  class="navbar-toggler" type="button" data-toggle="collapse" >
+                <span class="navbar-toggler-icon"></span> 
+                </button>
+                <img src="./images/MAQSoftware_Logo_FullColor.png" alt="MAQ Software" />
+            </div>
+            
+            <a id="logo" class="navbar-brand pull-right">
+                <img src="./images/noun_Search_3504832.png">
+            </a>
+
+            
+          
+            <div style="margin-left: 21px;" class="pt-1 collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span style="height: 20px;
+                        border: 2px solid #564742;
+                        opacity: 1;"></span>
+                          <span style="text-align: left;
+                          font: normal normal bold 18px/24px Segoe UI;
+                          letter-spacing: 0px;
+                          color: #484848;
+                          opacity: 1;"> &nbsp; &nbsp;Training Services</span></a>
+                    </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><span style="text-align: left;
+                        font: normal normal 600 14px/19px Segoe UI;
+                        letter-spacing: 0px;
+                        color: #484848;
+                        opacity: 1;">Services</span></a>
+                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><span style="text-align: left;
+                        font: normal normal 600 14px/19px Segoe UI;
+                        letter-spacing: 0px;
+                        color: #484848;
+                        opacity: 1;">Carrer</span></a>
+                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><span style="text-align: left;
+                        font: normal normal 600 14px/19px Segoe UI;
+                        letter-spacing: 0px;
+                        color: #484848;
+                        opacity: 1;">About Us</span></a>
+                    </li>
+                </ul>
+                <!-- <form  class="form-inline my-2 my-lg-0" action='https://www.bing.com/search' style="border:1px solid gray;" class="form-inline my-2 my-lg-0 pr-5" style="margin-right: 20px;" target="_blank" type="get">
+                    <input class="form-control mr-sm-2" type="search" d="textbox" type="text" class="form-control shadow-none"  placeholder="search" name='q' arial-label="Search" style="border:none" >
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border:none;">
+                    <img src="./images/noun_Search_3504832.png" >
+                </button>
+                  </form> -->
+                <form action='https://www.bing.com/search' class="form-inline my-2 my-lg-0 pr-5" target="_blank" type="get">
+                    <div class="input-group" style="background: #FFFFFF 0% 0% no-repeat padding-box; width: 280px;
+                    border: 1px solid #A8A8A8; outline-color: white;
+                    opacity: 1;">
+                        <input style="border-color: white; outline-color: white; width: 200px;" id="textbox" type="text" class="form-control shadow-none"  placeholder="search" name='q' arial-label="Search">
+                        <button type="submit" style="outline-color: white; border:none; background: #FFFFFF 0% 0% no-repeat padding-box; border-color: white;
+                        " style="width: 85px; margin-right: 20px" >
+                            <img src="./images/noun_Search_3504832.png" class="p-1 center " style="width: 25px; margin-right:15px; margin-top: 5px" >
+                        </button>
+                    </div>
+                 </form>
+            </div>
+          </nav>
+        <!-- end header -->
+
+        <!-- banner header -->
+        <div class="box">
+            <img id="set-img" src="./images/Group 103.png" alt="banner" style="width:100%;">
+            <div class="text-block">
+              <h4 id="text-1">Training Center</h4>
+              <p id="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <!-- banner end -->
+        
+        <!-- text-1 -->
+        <div class="container" style="margin-top:30px">
+            <h3 style="text-align: center;
+            font: normal normal bold 28px/37px Segoe UI;
+            letter-spacing: 0px;
+            color: #191818;
+            opacity: 1;">Let's get started</h3>
+        </div>
+        <!-- end text-1 -->
+
+        <div class=" container container fluid" style="margin-top: 13px;">
+                <div style="text-align: center;
+                font: normal normal normal 16px/20px Segoe UI;
+                letter-spacing: 0px;
+                color: #474747;
+                opacity: 1;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </div>
+        </div>
+
+            
+
+            <!-- start cards tiles section-->
+            <div class="container-fluid">
+                <div class="card-group my-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 p-1 mb-1 bg-light rounded" style="height: 210px;">
+                        <div id="id" class="card text-center h-100">
+                            <div style="margin-top:54.67px" class="card-block">
+                                <img src="./images/noun_admin_370865.png" />
+                                <div style="text-align: center;
+                                font: normal normal 600 20px/18px Segoe UI;
+                                letter-spacing: 0px;
+                                color: #000000;
+                                opacity: 1; margin-top: 13px;">Administrator</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div  class="col-sm-12 col-md-6 col-lg-4 p-1 mb-1 bg-light rounded" style="height: 210px;">
+                        <div id="id" class="card text-center h-100">
+                            <div style="margin-top:54.67px" class="card-block">
+                                <img src="./images/noun_Architect_2711767.png" />
+                                <div style="text-align: center;
+                                font: normal normal 600 20px/18px Segoe UI;
+                                letter-spacing: 0px;
+                                color: #000000;
+                                opacity: 1; margin-top: 13px;">Architect</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div  class="col-sm-12 col-md-6 col-lg-4 p-1 mb-1 bg-light rounded" style="height: 210px;">
+                        <div id="id" class="card text-center h-100">
+                            <div style="margin-top:54.67px" class="card-block">
+                                <img src="./images/noun_developer_3346388.png" />
+                                <div style="text-align: center;
+                                font: normal normal 600 20px/18px Segoe UI;
+                                letter-spacing: 0px;
+                                color: #000000;
+                                opacity: 1; margin-top: 13px;">Developer</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+                    <div  class="col-sm-12 col-md-6 col-lg-4 p-1 mb-1 bg-light rounded" style="height: 210px;">
+                        <div id="id" class="card text-center h-100">
+                            <div style="margin-top:54.67px" class="card-block">
+                                <img src="./images/noun_admin_370865.png" />
+                                <div style="text-align: center;
+                                font: normal normal 600 20px/18px Segoe UI;
+                                letter-spacing: 0px;
+                                color: #000000;
+                                opacity: 1; margin-top: 13px;">Business Analyst</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div  class="col-sm-12 col-md-6 col-lg-4 p-1 mb-1 bg-light rounded" style="height: 210px;">
+                        <div id="id" class="card text-center h-100">
+                            <div style="margin-top:54.67px" class="card-block">
+                                <img src="./images/noun_Architect_2711767.png" />
+                                <div style="text-align: center;
+                                font: normal normal 600 20px/18px Segoe UI;
+                                letter-spacing: 0px;
+                                color: #000000;
+                                opacity: 1; margin-top: 13px;">Technical Presales</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="col-sm-12 col-md-6 col-lg-4 p-1 mb-1 bg-light rounded" style="height: 210px;">
+                        <div id="id"  class="card text-center h-100">
+                            <div style="margin-top:54.67px" class="card-block">
+                                <img src="./images/noun_developer_3346388.png" />
+                                <div style="text-align: center;
+                                font: normal normal 600 20px/18px Segoe UI;
+                                letter-spacing: 0px;
+                                color: #000000;
+                                opacity: 1; margin-top: 13px;">Data Scientist</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End card tiles -->
+
+            <div  class="card text-center" style="background: #005570 0% 0% no-repeat padding-box; opacity: 1">
+                <div id="card-banner" class="card-body" >
+                    <div id="blue-text" class="card-title">
+                        Recruit, hire, onboard and retain talent
+                    </div>
+                    <div id="blue-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    </div>
+                    <div id="but">
+                        <button data-toggle="modal" data-target="#myModal" id="but-content"><span id="span-but">View More</span></button>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+            
+         
+        <!-- start Footer Banner  -->
+        
+        <!-- <div style="opacity: 1; height: 135px/163px/293px;" >
+            <div class="card" style="width: 100%;">
+                <div class="row">
+                    <div class="col-sm-5 col-lg-1"></div>
+                    <div class="col-md-6 col-lg-6">
+                        <h4 id="foot-1" class="card-title">Start preparing for a certification</h4>
+                        <h5 id="foot-2" class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h5>
+                        <p id="foot-3">Choose a session <img src="./images/Icon ionic-ios-arrow-down.png" alt="arrow" /></p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-5"> 
+                        <img id="banner" src="./images/Group 137.png" style="width: 100%; height: 100%; opacity: 1;" />
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div  class="card">
+            <div id="card-body" class="row no-glutters">
+                <!-- <div class="col-lg-1"> </div> -->
+                <div class="col-6">
+                    <h5 id="card-text">Start preparing for a certification</h5>
+                    <p id="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <p id="card-link">Choose a session <img src="./images/Icon ionic-ios-arrow-down.png" alt="arrow" /></p>
+                </div>
+                <div class="col-6">
+                    <img src="./images/Group 137.png" card="card-img" alt="footer banner" id="card-img" />
+                </div>
+            </div>
+        </div>
+
+        <!-- end Footer banner  -->
+
+        <!-- Footer -->
+
+        <!-- <div id="footer">
+            <div id="left">
+                MAQ Software Confidential
+            </div>
+            <div id="right">
+                Last Updated: August 28, 2020
+            </div>
+        </div> -->
+
+
+        <div class="card-footer" style="height: 60px;
+           background: #242424 0% 0% no-repeat padding-box;
+           opacity: 1;">
+           
+            <div id="putText">MAQ Software Confidential</div>
+
+            <div id="putDate" >
+            Last Updated: August 28, 2020
+            </div>
+        </div>
+
+        <!-- End Footer -->
+
+        <!-- Model -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog model-lg">
+              <div class="modal-content">
+              
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title" style="text-align: left;
+                  font: normal normal bold 20px/27px Segoe UI;
+                  letter-spacing: 0px;
+                  color: #191818;
+                  opacity: 1;">Currency Converter</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row">
+                          <label for="inputEmail3" class="col-sm-4 col-form-label">Input Field 1</label>
+                          <div class="col-sm-8">
+                            <input type="input" class="form-control" value="$1 USD" id="inputEmail3" readonly>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="inputPassword3"  class="col-sm-4 col-form-label">Input field 2</label>
+                          <div class="col-sm-8">
+                            <select class="form-control" id="option">
+                                <option value="USDINR">INR</option>
+                                <option value="USDEUR">EUR</option>
+                                <option value="USDAED">AED</option>
+                            </select>
+                          </div>
+                        </div>
+                    </form>                      
+                </div>
+                
+                <!-- Modal footer -->
+                <div  class="modal-footer"  style="text-align: center;">
+                  <button onclick="loadResult()"  style="width: 104px; margin-right: 40%;
+                  height: 35px;
+                  background: #005570 0% 0% no-repeat padding-box;
+                  border-radius: 4px;
+                  opacity: 1;"> <span style="text-align: center;
+                    font: normal normal normal 12px/30px Segoe UI;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    opacity: 1;">Submit</span> </button>
+                    
+                    
+                </div>
+                <div id="showResult" style="font-weight: bold; text-align: center;"></div>
+              </div>
+            </div>
+        </div>
+
+        <script>
+            function getCurrentDate() {
+                var putDate = document.getElementById("putDate");
+                var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                var today = new Date();
+                var dd = String(today.getDate()).padStart(2, '0');
+                var mm = (today.getMonth() + 1) //January is 0!
+                var yyyy = today.getFullYear();
+                putDate.innerHTML = "Last Updated: "+ months[mm-1] + " "+ dd + ', ' + yyyy;
+            }
+
+            function loadResult() {
+                // alert("HELLO");
+                var show = document.getElementById("showResult");
+                var convertTo=document.getElementById("option").value;
+                var xmlhttp;
+                if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+                        xmlhttp=new XMLHttpRequest();
+                }
+                else
+                {       // code for IE6, IE5
+                        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                xmlhttp.onreadystatechange=function(){
+                        if (xmlhttp.readyState==4 && xmlhttp.status==200){
+                                        //alert("YES");
+                                        //console.log(JSON.parse(xmlhttp.responseText)["success"]);
+                                        if(convertTo == "USDINR") {
+                                            show.innerHTML = "Value - "+ JSON.parse(xmlhttp.responseText)["quotes"][convertTo] + " INR";
+                                        } else {
+                                            if(convertTo == "USDAED") {
+                                                show.innerHTML = "Value - "+ JSON.parse(xmlhttp.responseText)["quotes"][convertTo] + " AED";
+                                            } else {
+                                                show.innerHTML = "Value - "+ JSON.parse(xmlhttp.responseText)["quotes"][convertTo] + " EUR";
+                                            }
+                                        }
+                        }
+                };
+                xmlhttp.open("GET","http://apilayer.net/api/live?access_key=71372e12aef18152610fb1783e980650&currencies=INR,AED,EUR&source=USD&format=1",true);
+                xmlhttp.send();
+            }
+
+            function sendRequest() {
+                text = document.getElementByID("tt").value;
+                alert("sda")
+                window.open("https://www.bing.com/search?q="+text);
+            }
+
+
+        </script>
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+
+<!-- https://currencylayer.com -->
