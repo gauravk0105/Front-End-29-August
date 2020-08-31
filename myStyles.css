@@ -787,6 +787,9 @@ opacity: 1;
 
 @media screen and (max-width: 992px) {
 /*  */
+  #show {
+    display:none;
+  }
   #logo {
     display: inline;
   }
@@ -794,6 +797,9 @@ opacity: 1;
 
 @media screen and (max-width: 600px) {
   /*  */
+  #show {
+    display:none;
+  }
     #logo {
       display: inline;
     }
